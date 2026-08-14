@@ -26,7 +26,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
         - name: frontend
-          image: 382677937583.dkr.ecr.ap-south-1.amazonaws.com/github-actions-frontend:62fc03fa8157264feb53190940b83ae8dc774c3b
+          image: 382677937583.dkr.ecr.ap-south-1.amazonaws.com/github-actions-frontend:REPLACE_WITH_SHA
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
